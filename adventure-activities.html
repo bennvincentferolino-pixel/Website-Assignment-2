@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home Page</title>
+    <style>
+        header{
+            position: relative;
+            background-image: url("images/adventurebg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="branding">
+            <div id="logo">
+                <img src="images/coatofarms.png" alt="Logo">
+            </div>
+            <div class="header-title">
+                <h1>Davao del Sur</h1>
+            </div>
+        </div>
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Destinations</a>
+                    <ul class="dropdown-content">
+                        <li><a href="mtapo.html">Mt. Apo</a></li>
+                        <li><a href="passig.html">Passig Islet</a></li>
+                        <li><a href="malalag.html">Malalag Bay</a></li>
+                        <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                        <li><a href="digos.html">Digos City</a></li>
+                        <li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="activities.html">Activities</a>
+                    <ul class="dropdown-content">
+                        <li><a href="hiking.html">Hiking</a></li>
+                        <li><a href="water-activities.html">Water Activities</a></li>
+                        <li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                        <li><a href="adventure-activities.html">Adventure Activities</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="culture.html">Culture</a>
+                    <ul class="dropdown-content">
+                        <li><a href="indigenous.html">Indigenous Culture</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="cuisine.html">Food & Cuisine</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="travel.html">Travel Info</a>
+                    <ul class="dropdown-content">
+                        <li><a href="directions.html">How to Get There</a></li>
+                        <li><a href="visit.html">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Adventure Activities</h1>
+        <p>Get your heart racing in Davao del Sur! Soar above the tree canopy on the giant ziplines at Camp Sabros, or rent an ATV to navigate the rugged highland terrains. For those who love exploring the underground, spelunking in the various limestone caves scattered across the province, such as those in the Matanao area, offers an unforgettable subterranean adventure.</p>
+    </div>
+
+</header>
+
+<section class="highlights">
+    <div class="highlight-item">
+        <h3>Extreme Heights</h3>
+        <p>Soar above the tree canopy on some of the highest and longest ziplines in the country.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Off-Road Trails</h3>
+        <p>Navigate rugged, muddy highland terrains on guided ATV and motocross adventures.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Subterranean Exploration</h3>
+        <p>Gear up and crawl through the fascinating limestone cave systems of Matanao.</p>
+    </div>
+</section>
+
+<section class="about-snippet">
+    <h2>The Ultimate Playground for Thrill-Seekers</h2>
+    <p>If you are looking to get your adrenaline pumping, Davao del Sur is the place to be. Beyond trekking, the province offers a massive variety of extreme outdoor sports set against the backdrop of untouched rainforests and deep valleys. From the chilly highland resorts of Kapatagan offering aerial adventures to the deep, echoing chambers of the Su'bon Cave, there is an adventure scaled for every bravery level. Whether you are flying through the air, riding through the mud, or rappelling down a rock face, safety-certified local operators are ready to guide your journey.</p>
+</section>
+
+<section class="featured">
+    <h2>Featured Adventures</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/zipline.png" alt="Mega Ziplines">
+            <div class="card-body">
+                <h3>Mega Ziplines</h3>
+                <p>Fly tandem across an 800-meter drop at Camp Sabros and feel the rush of the mountain wind.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/ATV.png" alt="Highland ATV Rides">
+            <div class="card-body">
+                <h3>Highland ATV Rides</h3>
+                <p>Rent an All-Terrain Vehicle and conquer the bumpy, scenic trails around the foothills of Mt. Apo.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/Spelunking.png" alt="Spelunking">
+            <div class="card-body">
+                <h3>Spelunking</h3>
+                <p>Discover impressive stalactite formations and underground streams in the caves of Matanao.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="best-time.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+    
+</div>
+    
+</div>
+    
+</body>
+</html>

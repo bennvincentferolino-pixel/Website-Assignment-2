@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home Page</title>
+    <style>
+        header{
+            position: relative;
+            background-image: url("images/waterfallbg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="branding">
+            <div id="logo">
+                <img src="images/coatofarms.png" alt="Logo">
+            </div>
+            <div class="header-title">
+                <h1>Davao del Sur</h1>
+            </div>
+        </div>
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Destinations</a>
+                    <ul class="dropdown-content">
+                        <li><a href="mtapo.html">Mt. Apo</a></li>
+                        <li><a href="passig.html">Passig Islet</a></li>
+                        <li><a href="malalag.html">Malalag Bay</a></li>
+                        <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                        <li><a href="digos.html">Digos City</a></li>
+                        <li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="activities.html">Activities</a>
+                    <ul class="dropdown-content">
+                        <li><a href="hiking.html">Hiking</a></li>
+                        <li><a href="water-activities.html">Water Activities</a></li>
+                        <li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                        <li><a href="adventure-activities.html">Adventure Activities</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="culture.html">Culture</a>
+                    <ul class="dropdown-content">
+                        <li><a href="indigenous.html">Indigenous Culture</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="cuisine.html">Food & Cuisine</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="travel.html">Travel Info</a>
+                    <ul class="dropdown-content">
+                        <li><a href="directions.html">How to Get There</a></li>
+                        <li><a href="visit.html">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Waterfalls & Nature Spots</h1>
+        <p>Davao del Sur is dotted with hidden cascades and untouched forests. Tudaya Falls, located in Santa Cruz, plunges dramatically into a deep catching basin and is one of the tallest waterfalls in the region. Meanwhile, Virgin Falls in Kapatagan offers a serene, icy-cold retreat surrounded by dense foliage. These nature trails are perfect for day hikes and nature photography.</p>
+    </div>
+
+</header>
+
+<section class="highlights">
+    <div class="highlight-item">
+        <h3>Towering Drops</h3>
+        <p>Stand in awe at the base of waterfalls plunging from over a hundred meters high.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Hidden Cascades</h3>
+        <p>Hike through untouched jungles to find secret, multi-tiered waterfalls.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Ice-Cold Basins</h3>
+        <p>Take a freezing, refreshing plunge in natural pools fed by mountain springs.</p>
+    </div>
+</section>
+
+<section class="about-snippet">
+    <h2>The Crown Jewel of Mindanao</h2>
+    <p>The rugged, volcanic landscape of Davao del Sur is veined with pristine rivers that create spectacular waterfalls. Trekking to these cascades is a rite of passage for nature lovers, offering a rewarding cool-down after navigating the dense tropical jungles. The undisputed king of these falls is Tudaya, requiring a challenging hike but rewarding you with a massive, roaring curtain of water. For a more serene experience, Virgin Falls in Kapatagan is enveloped by quiet forests and giant ferns. Whether you want a hardcore trek or a short nature walk, there is a cascade waiting for you.</p>
+</section>
+
+<section class="featured">
+    <h2>Must-See Cascades</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/tudaya-falls.png" alt="Tudaya Falls">
+            <div class="card-body">
+                <h3>Tudaya Falls</h3>
+                <p>One of the tallest in the region, dropping dramatically into a deep, misty catching basin.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/virgin-falls.png" alt="Virgin Falls">
+            <div class="card-body">
+                <h3>Virgin Falls</h3>
+                <p>A tranquil, icy-cold retreat located in the cool highlands of Kapatagan, perfect for relaxing.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/kipangpan-falls.png" alt="Kipangpang Falls">
+            <div class="card-body">
+                <h3>Kipangpang Falls</h3>
+                <p>A beautiful, multi-tiered waterfall hidden deep within the Mt. Apo Natural Park.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="best-time.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+    
+</div>
+    
+</div>
+    
+</body>
+</html>

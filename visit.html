@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home Page</title>
+    <style>
+        header{
+            position: relative;
+            background-image: url("images/visitbg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="branding">
+            <div id="logo">
+                <img src="images/coatofarms.png" alt="Logo">
+            </div>
+            <div class="header-title">
+                <h1>Davao del Sur</h1>
+            </div>
+        </div>
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Destinations</a>
+                    <ul class="dropdown-content">
+                        <li><a href="mtapo.html">Mt. Apo</a></li>
+                        <li><a href="passig.html">Passig Islet</a></li>
+                        <li><a href="malalag.html">Malalag Bay</a></li>
+                        <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                        <li><a href="digos.html">Digos City</a></li>
+                        <li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="activities.html">Activities</a>
+                    <ul class="dropdown-content">
+                        <li><a href="hiking.html">Hiking</a></li>
+                        <li><a href="water-activities.html">Water Activities</a></li>
+                        <li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                        <li><a href="adventure-activities.html">Adventure Activities</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="culture.html">Culture</a>
+                    <ul class="dropdown-content">
+                        <li><a href="indigenous.html">Indigenous Culture</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="cuisine.html">Food & Cuisine</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="travel.html">Travel Info</a>
+                    <ul class="dropdown-content">
+                        <li><a href="directions.html">How to Get There</a></li>
+                        <li><a href="visit.html">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Best Time to Visit</h1>
+        <p>While the province is beautiful year-round, the best time to visit depends on your itinerary. For hiking Mt. Apo and engaging in outdoor adventures, the dry season from March to May is highly recommended to ensure safe and clear trails. If you want to experience the local culture at its peak, plan your visit around July for the provincial anniversary or September for the local festivals.</p>
+    </div>
+
+</header>
+
+<section class="highlights">
+    <div class="highlight-item">
+        <h3>Summer Treks</h3>
+        <p>Enjoy clear skies and safer trails during the dry season from March to May.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Festival Seasons</h3>
+        <p>Immerse yourself in massive cultural celebrations happening in July and September.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Fruit Harvests</h3>
+        <p>Feast on the cheapest and most abundant durian and pomelos from August to October.</p>
+    </div>
+</section>
+
+<section class="about-snippet">
+    <h2>Timing Your Perfect Trip</h2>
+    <p>Davao del Sur is geographically blessed. It sits outside the typhoon belt, meaning it rarely experiences the severe storms that affect the northern Philippines. This makes it a fantastic year-round destination, but timing your visit can enhance your specific interests. If your primary goal is to summit Mt. Apo or explore the caves, the dry summer months are essential for safety and clear views. If you are a foodie or a culture enthusiast, align your trip with the Kadayawan season (neighboring Davao City) in August or the Digos City festivals in September to experience peak harvests and vibrant street parties.</p>
+</section>
+
+<section class="featured">
+    <h2>Seasonal Guide</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/dry.png" alt="The Dry Season">
+            <div class="card-body">
+                <h3>The Dry Season</h3>
+                <p>The absolute best time for mountaineering, island hopping, and outdoor extreme sports.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/festival.png" alt="Festival Months (Jul & Sep)">
+            <div class="card-body">
+                <h3>Festival Months (Jul & Sep)</h3>
+                <p>Experience the provincial anniversary and the Padigosan festival in full color and sound.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/fruit.png" alt="The Fruit Season (Aug-Oct)">
+            <div class="card-body">
+                <h3>The Fruit Season (Aug-Oct)</h3>
+                <p>The ultimate time for foodies. Fruit stands overflow with fresh, cheap harvests straight from the farms.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="best-time.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+    
+</div>
+    
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home Page</title>
+    <style>
+        header{
+            position: relative;
+            background-image: url("images/festivalbg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="branding">
+            <div id="logo">
+                <img src="images/coatofarms.png" alt="Logo">
+            </div>
+            <div class="header-title">
+                <h1>Davao del Sur</h1>
+            </div>
+        </div>
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Destinations</a>
+                    <ul class="dropdown-content">
+                        <li><a href="mtapo.html">Mt. Apo</a></li>
+                        <li><a href="passig.html">Passig Islet</a></li>
+                        <li><a href="malalag.html">Malalag Bay</a></li>
+                        <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                        <li><a href="digos.html">Digos City</a></li>
+                        <li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="activities.html">Activities</a>
+                    <ul class="dropdown-content">
+                        <li><a href="hiking.html">Hiking</a></li>
+                        <li><a href="water-activities.html">Water Activities</a></li>
+                        <li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                        <li><a href="adventure-activities.html">Adventure Activities</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="culture.html">Culture</a>
+                    <ul class="dropdown-content">
+                        <li><a href="indigenous.html">Indigenous Culture</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="cuisine.html">Food & Cuisine</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="travel.html">Travel Info</a>
+                    <ul class="dropdown-content">
+                        <li><a href="directions.html">How to Get There</a></li>
+                        <li><a href="visit.html">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Festivals</h1>
+        <p>Celebrate with us! The province comes alive during the Araw ng Davao del Sur every July, featuring massive parades, cultural showcases, and agricultural fairs. In September, Digos City celebrates the Padigosan Festival, honoring its history and abundant harvests with vibrant street dancing, music, and a showcase of the city's best local products.</p>
+    </div>
+
+</header>
+
+<section class="highlights">
+    <div class="highlight-item">
+        <h3>Vibrant Street Dances</h3>
+        <p>Marvel at colorful costumes and synchronized dances that tell stories of harvest and history.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Agricultural Fairs</h3>
+        <p>Taste and buy the finest local produce, from sweet mangoes to premium coffee beans.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Cultural Showcases</h3>
+        <p>Witness the rich traditions of the Bagobo and B'laan tribes displayed with pride.</p>
+    </div>
+</section>
+
+<section class="about-snippet">
+    <h2>Celebrate the Spirit of the South</h2>
+    <p>Davao del Sur is a province that loves to celebrate its abundant harvests, rich history, and diverse cultures. Joining a local festival is the best way to experience the warmth, creativity, and incredible energy of the people. The province comes alive during the Araw ng Davao del Sur every July, featuring massive parades and concerts. In September, the capital celebrates the Padigosan Festival, honoring Digos City's history with vibrant street dancing, live music, and a showcase of the city's best local products and delicacies.</p>
+</section>
+
+<section class="featured">
+    <h2>Major Festivals</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/araw-ng-davao.png" alt="Araw ng Davao del Sur">
+            <div class="card-body">
+                <h3>Araw ng Davao del Sur</h3>
+                <p>The grand provincial anniversary held every July, featuring week-long celebrations and trade fairs.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/padigosan.png" alt="Padigosan">
+            <div class="card-body">
+                <h3>Padigosan Festival</h3>
+                <p>Digos City's premier festival in September, highlighting local talent, food, and culture.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/indigenous-card.png" alt="Indigenous Month">
+            <div class="card-body">
+                <h3>Indigenous Month</h3>
+                <p>Special events honoring the Lumad tribes, featuring traditional music, weaving, and rituals.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="best-time.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+    
+</div>
+    
+</div>
+    
+</body>
+</html>

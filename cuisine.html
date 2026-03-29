@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home Page</title>
+    <style>
+        header{
+            position: relative;
+            background-image: url("images/cuisinebg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="branding">
+            <div id="logo">
+                <img src="images/coatofarms.png" alt="Logo">
+            </div>
+            <div class="header-title">
+                <h1>Davao del Sur</h1>
+            </div>
+        </div>
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Destinations</a>
+                    <ul class="dropdown-content">
+                        <li><a href="mtapo.html">Mt. Apo</a></li>
+                        <li><a href="passig.html">Passig Islet</a></li>
+                        <li><a href="malalag.html">Malalag Bay</a></li>
+                        <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                        <li><a href="digos.html">Digos City</a></li>
+                        <li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="activities.html">Activities</a>
+                    <ul class="dropdown-content">
+                        <li><a href="hiking.html">Hiking</a></li>
+                        <li><a href="water-activities.html">Water Activities</a></li>
+                        <li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                        <li><a href="adventure-activities.html">Adventure Activities</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="culture.html">Culture</a>
+                    <ul class="dropdown-content">
+                        <li><a href="indigenous.html">Indigenous Culture</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="cuisine.html">Food & Cuisine</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="travel.html">Travel Info</a>
+                    <ul class="dropdown-content">
+                        <li><a href="directions.html">How to Get There</a></li>
+                        <li><a href="visit.html">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Food & Cuisine</h1>
+        <p>A trip to Davao del Sur is a feast for the senses. Indulge in the "King of Fruits," the Durian, along with sweet pomelos, marang, and mangosteens. Don't leave without trying Sinuglaw (a mix of grilled pork and fish ceviche), eating fresh seafood by the gulf, or sipping a hot cup of locally brewed Arabica coffee from the slopes of Mt. Apo.</p>
+    </div>
+
+</header>
+
+<section class="highlights">
+    <div class="highlight-item">
+        <h3>Fresh Seafood</h3>
+        <p>Devour the daily catch straight from the Davao Gulf, grilled to perfection.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Exotic Fruits</h3>
+        <p>Taste the "King of Fruits" alongside the sweetest pomelos and mangosteens.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Highland Brews</h3>
+        <p>Sip award-winning, single-origin Arabica coffee grown in the volcanic soil of Mt. Apo.</p>
+    </div>
+</section>
+
+<section class="about-snippet">
+    <h2>A Taste of the South</h2>
+    <p>The culinary landscape of Davao del Sur is a vibrant mix of coastal harvests and rich agricultural bounty. Thanks to its incredibly fertile volcanic soil, the province produces world-class tropical fruits and some of the best coffee beans in the Philippines. You cannot visit without exploring the local sutukil eateries (Sugba-Tuwa-Kilaw), where you handpick fresh seafood to be grilled, made into a rich soup, or cured in vinegar. Don't leave without trying Sinuglaw, a mouth-watering combination of grilled pork belly and raw fish ceviche that perfectly captures the bold flavors of Mindanao.</p>
+</section>
+
+<section class="featured">
+    <h2>Must-Try Flavors</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/sinuglaw.png" alt="The Sinuglaw Experience">
+            <div class="card-body">
+                <h3>The Sinuglaw Experience</h3>
+                <p>A perfect explosion of smoky, sour, spicy, and savory flavors in a single iconic dish.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/durian.png" alt="Durian & Marang">
+            <div class="card-body">
+                <h3>Durian & Marang</h3>
+                <p>Dive into the rich, custard-like textures of the region's most famous and polarizing tropical fruits.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/coffee.png" alt="Mt. Apo Coffee">
+            <div class="card-body">
+                <h3>Mt. Apo Coffee</h3>
+                <p>Visit a local cafe to try the smooth, chocolatey notes of authentic Kapatagan Arabica.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="best-time.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+    
+</div>
+    
+</div>
+    
+</body>
+</html>

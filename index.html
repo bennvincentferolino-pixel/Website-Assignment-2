@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>Home Page</title>
+    <style>
+        header{
+            position: relative;
+            background-image: url("images/indexbg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(255, 255, 255, 0.25);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+	<nav>
+		<div class="branding">
+    		<div id="logo">
+        		<img src="images/coatofarms.png" alt="Logo">
+    		</div>
+    		<div class="header-title">
+        		<h1>Davao del Sur</h1>
+    		</div>
+		</div>
+		
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Destinations</a>
+                    <ul class="dropdown-content">
+                        <li><a href="mtapo.html">Mt. Apo</a></li>
+                        <li><a href="passig.html">Passig Islet</a></li>
+                        <li><a href="malalag.html">Malalag Bay</a></li>
+                        <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                    	<li><a href="digos.html">Digos City</a></li>
+                    	<li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                	<a href="activities.html">Activities</a>
+                	<ul class="dropdown-content">
+                		<li><a href="hiking.html">Hiking</a></li>
+                		<li><a href="water-activities.html">Water Activities</a></li>
+                		<li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                		<li><a href="adventure-activities.html">Adventure Activities</a></li>
+                	</ul>
+                </li>
+
+                <li class="dropdown">
+                	<a href="culture.html">Culture</a>
+                	<ul class="dropdown-content">
+                		<li><a href="indigenous.html">Indigenous Culture</a></li>
+                		<li><a href="festivals.html">Festivals</a></li>
+                		<li><a href="cuisine.html">Food & Cuisine</a></li>
+                	</ul>
+                </li>
+
+                <li class="dropdown">
+                	<a href="travel.html">Travel Info</a>
+                	<ul class="dropdown-content">
+                		<li><a href="directions.html">How to Get There</a></li>
+                		<li><a href="visit.html">Best Time to Visit</a></li>
+                		<li><a href="travel-tips.html">Travel Tips</a></li>
+                	</ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Welcome to Davao del Sur: From Highland to Ocean</h1>
+        <p>Discover the unparalleled beauty of Davao del Sur, a province where adventure and culture naturally intertwine. Located in the southeastern part of Mindanao, this province is a haven for eco-tourists, thrill-seekers, and cultural enthusiasts alike. Whether you are looking to conquer the towering heights of Mt. Apo, relax on the pristine white sands of our coastal municipalities, or immerse yourself in the rich heritage of the Bagobo and B'laan tribes, Davao del Sur offers a journey like no other.<br>Explore our scenic highlands, dive into our vibrant marine sanctuaries, and taste the freshest tropical fruits right from the source. Your ultimate Mindanao adventure starts right here.</p>
+    </div>
+
+</header>
+
+<section class="highlights">
+    <div class="highlight-item">
+        <h3>Thrilling Adventures</h3>
+        <p>Conquer epic mountain trails, navigate river rapids, and experience world-class outdoor thrills.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Coastal Wonders</h3>
+        <p>Discover hidden coves, vibrant marine sanctuaries, and tranquil shores along the Davao Gulf.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Rich Agriculture</h3>
+        <p>Taste the region's sweetest tropical fruits and sip premium, locally-grown highland coffee.</p>
+    </div>
+</section>
+
+<section class="about-snippet">
+    <h2>Discover Davao del Sur</h2>
+    <p>Davao del Sur is a province in the southeastern part of Mindanao, blessed with remarkable natural wonders and a vibrant cultural heritage. From the towering summit of Mt. Apo to the serene shores of Malalag Bay, this province offers a diverse range of experiences for every type of traveler.</p>
+    <a href="about.html" class="btn">Read More</a>
+</section>
+
+<section class="featured">
+    <h2>Featured Destinations</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/mtapo.png" alt="Mt. Apo">
+            <div class="card-body">
+                <h3>Mt. Apo Natural Park</h3>
+                <p>The highest mountain in the Philippines, perfect for trekking and breathtaking sunrise views.</p>
+                <a href="mtapo.html" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/passig.png" alt="Passig Islet">
+            <div class="card-body">
+                <h3>Passig Islet</h3>
+                <p>A stunning white sand island surrounded by clear blue waters, ideal for island hopping.</p>
+                <a href="passig.html" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/camp-sabros.png" alt="Camp Sabros">
+            <div class="card-body">
+                <h3>Camp Sabros</h3>
+                <p>A mountain resort offering zipline adventures and cool highland weather.</p>
+                <a href="destinations.html" class="btn">Explore</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="best-time.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+	
+</body>
+</html>

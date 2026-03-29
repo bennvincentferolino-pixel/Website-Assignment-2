@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Gallery - Davao del Sur</title>
+    <style>
+        header {
+            position: relative;
+            background-image: url("images/gallerybg.png");
+            background-color: #2596be;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+
+        nav {
+            background-color: transparent;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #2596be;
+            color: white;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="branding">
+            <div id="logo">
+                <img src="images/coatofarms.png" alt="Logo">
+            </div>
+            <div class="header-title">
+                <h1>Davao del Sur</h1>
+            </div>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+            <li class="dropdown">
+                <a href="#">Destinations</a>
+                <ul class="dropdown-content">
+                    <li><a href="mtapo.html">Mt. Apo</a></li>
+                    <li><a href="passig.html">Passig Islet</a></li>
+                    <li><a href="malalag.html">Malalag Bay</a></li>
+                    <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                    <li><a href="digos.html">Digos City</a></li>
+                    <li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="activities.html">Activities</a>
+                <ul class="dropdown-content">
+                    <li><a href="hiking.html">Hiking</a></li>
+                    <li><a href="water-activities.html">Water Activities</a></li>
+                    <li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                    <li><a href="adventure-activities.html">Adventure Activities</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="culture.html">Culture</a>
+                <ul class="dropdown-content">
+                    <li><a href="indigenous.html">Indigenous Culture</a></li>
+                    <li><a href="festivals.html">Festivals</a></li>
+                    <li><a href="cuisine.html">Food & Cuisine</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="travel.html">Travel Info</a>
+                <ul class="dropdown-content">
+                    <li><a href="directions.html">How to Get There</a></li>
+                    <li><a href="visit.html">Best Time to Visit</a></li>
+                    <li><a href="travel-tips.html">Travel Tips</a></li>
+                </ul>
+            </li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>Gallery</h1>
+        <p>Explore the visual beauty of Davao del Sur — from misty peaks to crystal-clear waters.</p>
+    </div>
+</header>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+    <h2>Explore Through Photos</h2>
+
+    <div class="gallery-grid">
+
+        <div class="card">
+            <img src="images/mtapo.png" alt="Mt. Apo">
+            <div class="card-body">
+                <h3>Mt. Apo Summit</h3>
+                <p>The highest peak in the Philippines, standing at 2,954 meters.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/passig.png" alt="Passig Islet">
+            <div class="card-body">
+                <h3>Passig Islet</h3>
+                <p>A pristine white sand island surrounded by crystal-clear waters.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/malalagbg.png" alt="Malalag Bay">
+            <div class="card-body">
+                <h3>Malalag Bay</h3>
+                <p>Tranquil coastal views along the shores of the Davao Gulf.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/camp-sabros.png" alt="Camp Sabros">
+            <div class="card-body">
+                <h3>Camp Sabros</h3>
+                <p>Cool highland retreat with stunning views and zipline adventures.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/digosbg.png" alt="Digos City">
+            <div class="card-body">
+                <h3>Digos City</h3>
+                <p>The bustling capital city of Davao del Sur full of culture and commerce.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/waterfallbg.png" alt="Waterfalls">
+            <div class="card-body">
+                <h3>Hidden Waterfalls</h3>
+                <p>Cascading falls tucked deep within Davao del Sur's lush forests.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/sunset.png" alt="Sunset">
+            <div class="card-body">
+                <h3>Coastal Sunset</h3>
+                <p>Golden hour along the shores of Davao del Sur's coastal municipalities.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/festivalbg.png" alt="Festival">
+            <div class="card-body">
+                <h3>Hudyaka Festival</h3>
+                <p>A colorful celebration of the province's diverse cultural heritage.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/indigenousbg.png" alt="Indigenous Culture">
+            <div class="card-body">
+                <h3>Bagobo & B'laan Tribes</h3>
+                <p>Rich ancestral traditions kept alive through art, music, and weaving.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/spelunking.png" alt="Spelunking">
+            <div class="card-body">
+                <h3>Spelunking</h3>
+                <p>Explore the mysterious cave systems hidden beneath the province.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/craft.png" alt="Traditional Crafts">
+            <div class="card-body">
+                <h3>Traditional Crafts</h3>
+                <p>Intricate handwoven textiles and crafts passed down through generations.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/fruit.png" alt="Tropical Fruits">
+            <div class="card-body">
+                <h3>Tropical Fruits</h3>
+                <p>Fresh mangoes, bananas, and durian straight from local farms.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/coffee.png" alt="Highland Coffee">
+            <div class="card-body">
+                <h3>Highland Coffee</h3>
+                <p>Premium Arabica coffee grown in the cool highlands of Kapatagan.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/cuisinebg.png" alt="Local Cuisine">
+            <div class="card-body">
+                <h3>Local Cuisine</h3>
+                <p>Authentic flavors and dishes unique to Davao del Sur's food culture.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="visit.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Davao del Sur Tourism. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

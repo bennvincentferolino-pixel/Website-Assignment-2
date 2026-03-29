@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Home Page</title>
+    <style>
+        header{
+            position: relative;
+            background-image: url("images/directionsbg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-bottom: 1px solid #ccc;
+            height: 50vh;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="branding">
+            <div id="logo">
+                <img src="images/coatofarms.png" alt="Logo">
+            </div>
+            <div class="header-title">
+                <h1>Davao del Sur</h1>
+            </div>
+        </div>
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Destinations</a>
+                    <ul class="dropdown-content">
+                        <li><a href="mtapo.html">Mt. Apo</a></li>
+                        <li><a href="passig.html">Passig Islet</a></li>
+                        <li><a href="malalag.html">Malalag Bay</a></li>
+                        <li><a href="camp-sabros.html">Camp Sabros</a></li>
+                        <li><a href="digos.html">Digos City</a></li>
+                        <li><a href="waterfalls.html">Waterfalls & Nature Spots</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="activities.html">Activities</a>
+                    <ul class="dropdown-content">
+                        <li><a href="hiking.html">Hiking</a></li>
+                        <li><a href="water-activities.html">Water Activities</a></li>
+                        <li><a href="eco-tourism.html">Eco-Tourism</a></li>
+                        <li><a href="adventure-activities.html">Adventure Activities</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="culture.html">Culture</a>
+                    <ul class="dropdown-content">
+                        <li><a href="indigenous.html">Indigenous Culture</a></li>
+                        <li><a href="festivals.html">Festivals</a></li>
+                        <li><a href="cuisine.html">Food & Cuisine</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="travel.html">Travel Info</a>
+                    <ul class="dropdown-content">
+                        <li><a href="directions.html">How to Get There</a></li>
+                        <li><a href="visit.html">Best Time to Visit</a></li>
+                        <li><a href="travel-tips.html">Travel Tips</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+
+    <div class="text-box">
+        <h1>How to Get There</h1>
+        <p>Reaching Davao del Sur is easy and accessible. The primary entry point is the Francisco Bangoy International Airport in neighboring Davao City, which caters to domestic and international flights. From the airport or Davao City proper, you can take an air-conditioned bus or a passenger van heading south. The scenic drive to the provincial capital, Digos City, takes roughly 1.5 to 2 hours.</p>
+    </div>
+
+</header>
+
+<section class="highlights">
+    <div class="highlight-item">
+        <h3>Fly to Davao City</h3>
+        <p>Arrive via Francisco Bangoy International Airport, the main gateway to the region.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Smooth Land Travel</h3>
+        <p>Enjoy a scenic, fully-paved highway drive down south from the airport.</p>
+    </div>
+    <div class="highlight-item">
+        <h3>Local Transport</h3>
+        <p>Easily hop between towns using buses, passenger vans, or colorful local tricycles.</p>
+    </div>
+</section>
+
+<section class="about-snippet">
+    <h2>Navigating Your Way South</h2>
+    <p>Getting to Davao del Sur is straightforward and accessible. The province is highly connected to neighboring regions by a network of well-maintained national highways, making it an easy trip for backpackers and road-trippers alike. Most travelers fly into Davao City. From there, head to the Ecoland Bus Terminal where air-conditioned buses bound for Digos City depart every 30 minutes. The trip takes about 1.5 to 2 hours. Alternatively, you can hire a private van at the airport for a more comfortable and direct journey straight to your resort.</p>
+</section>
+
+<section class="featured">
+    <h2>Travel Options</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/bus.png" alt="Ecoland Bus Terminal">
+            <div class="card-body">
+                <h3>Ecoland Bus Terminal</h3>
+                <p>Catch a premium, air-conditioned bus heading south. Look for signs pointing to Digos or Cotabato.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/van.png" alt="Van Terminals (UV Express)">
+            <div class="card-body">
+                <h3>Van Terminals (UV Express)</h3>
+                <p>Navigate a surreal, moon-like landscape of giant, stark white volcanic rocks and active, steaming sulfur vents near the peak.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/car.png" alt="Renting a Car">
+            <div class="card-body">
+                <h3>Renting a Car</h3>
+                <p>Rent a private vehicle or a 4x4 in Davao City for ultimate freedom in exploring the highlands.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="travel-tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+        <div class="tip"><a href="directions.html"><h3>Getting There</h3></a><p>Fly to Francisco Bangoy International Airport in Davao City, then take a bus south.</p></div>
+        <div class="tip"><a href="best-time.html"><h3>Best Time to Visit</h3></a><p>November to May is the dry season — ideal for outdoor activities and beach trips.</p></div>
+        <div class="tip"><a href="travel-tips.html"><h3>Budget Friendly</h3></a><p>Davao del Sur offers affordable accommodations, food, and transport options.</p></div>
+    </div>
+</section>
+    
+</div>
+    
+</div>
+    
+</body>
+</html>
